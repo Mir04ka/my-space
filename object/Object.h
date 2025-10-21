@@ -8,7 +8,7 @@
 #include <vector>
 
 class Object {
-    protected:
+protected:
     Vector2d position;
     Vector2d velocity;
     double mass;
@@ -18,7 +18,7 @@ class Object {
     std::mt19937 gen;
     std::uniform_real_distribution<> dist_double;
 
-    public:
+public:
     Object(Vector2d position, Vector2d velocity, double mass, double radius);
     Object(Vector2d position, Vector2d velocity, double mass, double radius, std::string name);
     virtual ~Object();

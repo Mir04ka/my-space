@@ -2,6 +2,8 @@
 
 #include "raylib.h"
 #define RAYGUI_IMPLEMENTATION
+#include <cmath>
+
 #include "raygui.h"
 #include "vector"
 #include "object/Object.h"
