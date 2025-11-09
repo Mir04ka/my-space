@@ -27,6 +27,9 @@ public:
     virtual void draw();
     virtual void input() {}
 
+    std::string getName();
+    void setName(std::string new_name);
+
     double getMass();
     double getRadius() const;
     Vector2d getPosition();
